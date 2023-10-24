@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Geolocation__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__Geolocation__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__Geolocation__onFirstSceneLoaded.userFunc0x7ac180 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Geolocation__onFirstSceneLoaded.userFunc0x7aa148 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.evtTools.geolocation = {
     permission: { state: navigator.permissions ? "loading" : "unknown" }
@@ -26,7 +26,7 @@ gdjs.evtsExt__Geolocation__onFirstSceneLoaded.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__Geolocation__onFirstSceneLoaded.userFunc0x7ac180(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Geolocation__onFirstSceneLoaded.userFunc0x7aa148(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
