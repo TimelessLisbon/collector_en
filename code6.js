@@ -1,21 +1,6 @@
 gdjs.S_46_32Roque_32EntradaCode = {};
 gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1_1final = [];
 
-gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects1= [];
-gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects2= [];
-gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects3= [];
-gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects1= [];
-gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects2= [];
-gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects3= [];
-gdjs.S_46_32Roque_32EntradaCode.GDURLObjects1= [];
-gdjs.S_46_32Roque_32EntradaCode.GDURLObjects2= [];
-gdjs.S_46_32Roque_32EntradaCode.GDURLObjects3= [];
-gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects1= [];
-gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects2= [];
-gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects3= [];
-gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects1= [];
-gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects2= [];
-gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects3= [];
 gdjs.S_46_32Roque_32EntradaCode.GDokObjects1= [];
 gdjs.S_46_32Roque_32EntradaCode.GDokObjects2= [];
 gdjs.S_46_32Roque_32EntradaCode.GDokObjects3= [];
@@ -34,6 +19,21 @@ gdjs.S_46_32Roque_32EntradaCode.GDhighlightObjects3= [];
 gdjs.S_46_32Roque_32EntradaCode.GDlinkObjects1= [];
 gdjs.S_46_32Roque_32EntradaCode.GDlinkObjects2= [];
 gdjs.S_46_32Roque_32EntradaCode.GDlinkObjects3= [];
+gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects1= [];
+gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects2= [];
+gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects3= [];
+gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects1= [];
+gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects2= [];
+gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects3= [];
+gdjs.S_46_32Roque_32EntradaCode.GDURLObjects1= [];
+gdjs.S_46_32Roque_32EntradaCode.GDURLObjects2= [];
+gdjs.S_46_32Roque_32EntradaCode.GDURLObjects3= [];
+gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects1= [];
+gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects2= [];
+gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects3= [];
+gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects1= [];
+gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects2= [];
+gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects3= [];
 
 
 gdjs.S_46_32Roque_32EntradaCode.eventsList0 = function(runtimeScene) {
@@ -76,7 +76,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.S_46_32Roque_32EntradaCode.mapOfGDgdjs_46S_9546_9532Roque_9532EntradaCode_46GDlinkObjects1Objects = Hashtable.newFrom({"link": gdjs.S_46_32Roque_32EntradaCode.GDlinkObjects1});
+};gdjs.S_46_32Roque_32EntradaCode.mapOfGDgdjs_9546S_959546_959532Roque_959532EntradaCode_9546GDlinkObjects1Objects = Hashtable.newFrom({"link": gdjs.S_46_32Roque_32EntradaCode.GDlinkObjects1});
 gdjs.S_46_32Roque_32EntradaCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -85,7 +85,7 @@ gdjs.S_46_32Roque_32EntradaCode.eventsList1 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.S_46_32Roque_32EntradaCode.mapOfGDgdjs_46S_9546_9532Roque_9532EntradaCode_46GDlinkObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.S_46_32Roque_32EntradaCode.mapOfGDgdjs_9546S_959546_959532Roque_959532EntradaCode_9546GDlinkObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 {gdjs.evtTools.window.openURL("https://museusaoroque.scml.pt/museu-igreja/#", runtimeScene);
 }}
@@ -100,7 +100,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13761420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10472388);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -119,7 +119,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13765444);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10476364);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 0, 1);
@@ -137,7 +137,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13775316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10334828);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1, gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects2);
@@ -153,7 +153,7 @@ gdjs.copyArray(gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1, gdjs.S_46_32Roq
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13776476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10449780);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -169,7 +169,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13779804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10374004);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -197,7 +197,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13783828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10368364);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -213,7 +213,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13787404);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10481556);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -228,10 +228,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects1);
+gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects1);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, (( gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects1.length === 0 ) ? "" :gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects1[0].getString()), false);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, (( gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects1.length === 0 ) ? "" :gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects1[0].getString()), false);
 }}
 
 }
@@ -297,10 +297,10 @@ gdjs.S_46_32Roque_32EntradaCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects1);
+gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects1);
 {runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(4);
-}{for(var i = 0, len = gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects1.length ;i < len;++i) {
-    gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects1[i].setString("S. Roque Cruzadas 1");
+}{for(var i = 0, len = gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
+    gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects1[i].setString("S. Roque Cruzadas 1");
 }
 }{runtimeScene.getScene().getVariables().get("answer").setString("CROSSWORDS");
 }}
@@ -760,21 +760,6 @@ let isConditionTrue_0 = false;
 gdjs.S_46_32Roque_32EntradaCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects3.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDnext_95sceneObjects3.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDURLObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDURLObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDURLObjects3.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects3.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects3.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDokObjects1.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDokObjects2.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDokObjects3.length = 0;
@@ -793,6 +778,21 @@ gdjs.S_46_32Roque_32EntradaCode.GDhighlightObjects3.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDlinkObjects1.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDlinkObjects2.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDlinkObjects3.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects1.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects2.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDscoreObjects3.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects2.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDnext_9595sceneObjects3.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDURLObjects1.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDURLObjects2.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDURLObjects3.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects1.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects2.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDfundopistagmObjects3.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects1.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects2.length = 0;
+gdjs.S_46_32Roque_32EntradaCode.GDpistagmObjects3.length = 0;
 
 gdjs.S_46_32Roque_32EntradaCode.eventsList8(runtimeScene);
 

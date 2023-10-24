@@ -5,21 +5,6 @@ gdjs.Percurso_32BicaCode.GDgmapsObjects1_1final = [];
 
 gdjs.Percurso_32BicaCode.GDpercursoObjects1_1final = [];
 
-gdjs.Percurso_32BicaCode.GDscoreObjects1= [];
-gdjs.Percurso_32BicaCode.GDscoreObjects2= [];
-gdjs.Percurso_32BicaCode.GDscoreObjects3= [];
-gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1= [];
-gdjs.Percurso_32BicaCode.GDnext_95sceneObjects2= [];
-gdjs.Percurso_32BicaCode.GDnext_95sceneObjects3= [];
-gdjs.Percurso_32BicaCode.GDURLObjects1= [];
-gdjs.Percurso_32BicaCode.GDURLObjects2= [];
-gdjs.Percurso_32BicaCode.GDURLObjects3= [];
-gdjs.Percurso_32BicaCode.GDfundopistagmObjects1= [];
-gdjs.Percurso_32BicaCode.GDfundopistagmObjects2= [];
-gdjs.Percurso_32BicaCode.GDfundopistagmObjects3= [];
-gdjs.Percurso_32BicaCode.GDpistagmObjects1= [];
-gdjs.Percurso_32BicaCode.GDpistagmObjects2= [];
-gdjs.Percurso_32BicaCode.GDpistagmObjects3= [];
 gdjs.Percurso_32BicaCode.GDnoObjects1= [];
 gdjs.Percurso_32BicaCode.GDnoObjects2= [];
 gdjs.Percurso_32BicaCode.GDnoObjects3= [];
@@ -35,6 +20,21 @@ gdjs.Percurso_32BicaCode.GDgmapsObjects3= [];
 gdjs.Percurso_32BicaCode.GDGMObjects1= [];
 gdjs.Percurso_32BicaCode.GDGMObjects2= [];
 gdjs.Percurso_32BicaCode.GDGMObjects3= [];
+gdjs.Percurso_32BicaCode.GDscoreObjects1= [];
+gdjs.Percurso_32BicaCode.GDscoreObjects2= [];
+gdjs.Percurso_32BicaCode.GDscoreObjects3= [];
+gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1= [];
+gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects2= [];
+gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects3= [];
+gdjs.Percurso_32BicaCode.GDURLObjects1= [];
+gdjs.Percurso_32BicaCode.GDURLObjects2= [];
+gdjs.Percurso_32BicaCode.GDURLObjects3= [];
+gdjs.Percurso_32BicaCode.GDfundopistagmObjects1= [];
+gdjs.Percurso_32BicaCode.GDfundopistagmObjects2= [];
+gdjs.Percurso_32BicaCode.GDfundopistagmObjects3= [];
+gdjs.Percurso_32BicaCode.GDpistagmObjects1= [];
+gdjs.Percurso_32BicaCode.GDpistagmObjects2= [];
+gdjs.Percurso_32BicaCode.GDpistagmObjects3= [];
 
 
 gdjs.Percurso_32BicaCode.eventsList0 = function(runtimeScene) {
@@ -84,7 +84,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13635084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10347244);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -103,7 +103,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13639196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10351332);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 0, 1);
@@ -114,7 +114,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32BicaCode.userFunc0xdb69f0 = function(runtimeScene) {
+};gdjs.Percurso_32BicaCode.userFunc0xe65de8 = function(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -138,7 +138,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32BicaCode.userFunc0xdb6d00 = function(runtimeScene) {
+gdjs.Percurso_32BicaCode.userFunc0xe65e90 = function(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -162,7 +162,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32BicaCode.mapOfGDgdjs_46Percurso_9532BicaCode_46GDpercursoObjects2Objects = Hashtable.newFrom({"percurso": gdjs.Percurso_32BicaCode.GDpercursoObjects2});
+gdjs.Percurso_32BicaCode.mapOfGDgdjs_9546Percurso_959532BicaCode_9546GDpercursoObjects2Objects = Hashtable.newFrom({"percurso": gdjs.Percurso_32BicaCode.GDpercursoObjects2});
 gdjs.Percurso_32BicaCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -170,7 +170,7 @@ gdjs.Percurso_32BicaCode.eventsList2 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13650796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10364884);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -209,7 +209,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32BicaCode.GDyesObj
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13653692);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10367716);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -225,7 +225,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13655836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10369604);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -265,7 +265,7 @@ gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.Percurso_32BicaCode.GDnoObjec
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13664244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10378052);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -335,10 +335,10 @@ gdjs.Percurso_32BicaCode.eventsList0(runtimeScene);} //End of subevents
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("URL"), gdjs.Percurso_32BicaCode.GDURLObjects1);
-gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1);
+gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1);
 {runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(21);
-}{for(var i = 0, len = gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1.length ;i < len;++i) {
-    gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1[i].setString("Bica Enigma");
+}{for(var i = 0, len = gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
+    gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1[i].setString("Bica Enigma");
 }
 }{for(var i = 0, len = gdjs.Percurso_32BicaCode.GDURLObjects1.length ;i < len;++i) {
     gdjs.Percurso_32BicaCode.GDURLObjects1[i].setString("https://maps.app.goo.gl/qkCMdjBkbgzRubBB8");
@@ -368,7 +368,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("URL"), gdjs.Percurso_32BicaCode.GDURLObjects1);
 gdjs.copyArray(runtimeScene.getObjects("gmaps"), gdjs.Percurso_32BicaCode.GDgmapsObjects1);
-gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1);
+gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1);
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.Percurso_32BicaCode.GDnoObjects1);
 gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32BicaCode.GDyesObjects1);
 {for(var i = 0, len = gdjs.Percurso_32BicaCode.GDnoObjects1.length ;i < len;++i) {
@@ -380,8 +380,8 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32BicaCode.GDyesObj
 }{for(var i = 0, len = gdjs.Percurso_32BicaCode.GDgmapsObjects1.length ;i < len;++i) {
     gdjs.Percurso_32BicaCode.GDgmapsObjects1[i].hide();
 }
-}{for(var i = 0, len = gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1.length ;i < len;++i) {
-    gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1[i].hide();
+}{for(var i = 0, len = gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
+    gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1[i].hide();
 }
 }{for(var i = 0, len = gdjs.Percurso_32BicaCode.GDURLObjects1.length ;i < len;++i) {
     gdjs.Percurso_32BicaCode.GDURLObjects1[i].hide();
@@ -491,7 +491,7 @@ gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.Percurso_32BicaCode.GDscor
 {
 
 
-gdjs.Percurso_32BicaCode.userFunc0xdb69f0(runtimeScene);
+gdjs.Percurso_32BicaCode.userFunc0xe65de8(runtimeScene);
 
 }
 
@@ -499,7 +499,7 @@ gdjs.Percurso_32BicaCode.userFunc0xdb69f0(runtimeScene);
 {
 
 
-gdjs.Percurso_32BicaCode.userFunc0xdb6d00(runtimeScene);
+gdjs.Percurso_32BicaCode.userFunc0xe65e90(runtimeScene);
 
 }
 
@@ -532,7 +532,7 @@ for (var i = 0, k = 0, l = gdjs.Percurso_32BicaCode.GDgmapsObjects2.length;i<l;+
 gdjs.Percurso_32BicaCode.GDgmapsObjects2.length = k;
 if (isConditionTrue_2) {
 isConditionTrue_2 = false;
-isConditionTrue_2 = gdjs.evtTools.input.cursorOnObject(gdjs.Percurso_32BicaCode.mapOfGDgdjs_46Percurso_9532BicaCode_46GDpercursoObjects2Objects, runtimeScene, true, false);
+isConditionTrue_2 = gdjs.evtTools.input.cursorOnObject(gdjs.Percurso_32BicaCode.mapOfGDgdjs_9546Percurso_959532BicaCode_9546GDpercursoObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_2) {
 isConditionTrue_2 = false;
 isConditionTrue_2 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
@@ -768,10 +768,10 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 0.5;
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1);
+gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, (( gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1.length === 0 ) ? "" :gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1[0].getString()), false);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, (( gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1.length === 0 ) ? "" :gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1[0].getString()), false);
 }}
 
 }
@@ -792,21 +792,6 @@ let isConditionTrue_0 = false;
 gdjs.Percurso_32BicaCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.Percurso_32BicaCode.GDscoreObjects1.length = 0;
-gdjs.Percurso_32BicaCode.GDscoreObjects2.length = 0;
-gdjs.Percurso_32BicaCode.GDscoreObjects3.length = 0;
-gdjs.Percurso_32BicaCode.GDnext_95sceneObjects1.length = 0;
-gdjs.Percurso_32BicaCode.GDnext_95sceneObjects2.length = 0;
-gdjs.Percurso_32BicaCode.GDnext_95sceneObjects3.length = 0;
-gdjs.Percurso_32BicaCode.GDURLObjects1.length = 0;
-gdjs.Percurso_32BicaCode.GDURLObjects2.length = 0;
-gdjs.Percurso_32BicaCode.GDURLObjects3.length = 0;
-gdjs.Percurso_32BicaCode.GDfundopistagmObjects1.length = 0;
-gdjs.Percurso_32BicaCode.GDfundopistagmObjects2.length = 0;
-gdjs.Percurso_32BicaCode.GDfundopistagmObjects3.length = 0;
-gdjs.Percurso_32BicaCode.GDpistagmObjects1.length = 0;
-gdjs.Percurso_32BicaCode.GDpistagmObjects2.length = 0;
-gdjs.Percurso_32BicaCode.GDpistagmObjects3.length = 0;
 gdjs.Percurso_32BicaCode.GDnoObjects1.length = 0;
 gdjs.Percurso_32BicaCode.GDnoObjects2.length = 0;
 gdjs.Percurso_32BicaCode.GDnoObjects3.length = 0;
@@ -822,6 +807,21 @@ gdjs.Percurso_32BicaCode.GDgmapsObjects3.length = 0;
 gdjs.Percurso_32BicaCode.GDGMObjects1.length = 0;
 gdjs.Percurso_32BicaCode.GDGMObjects2.length = 0;
 gdjs.Percurso_32BicaCode.GDGMObjects3.length = 0;
+gdjs.Percurso_32BicaCode.GDscoreObjects1.length = 0;
+gdjs.Percurso_32BicaCode.GDscoreObjects2.length = 0;
+gdjs.Percurso_32BicaCode.GDscoreObjects3.length = 0;
+gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects2.length = 0;
+gdjs.Percurso_32BicaCode.GDnext_9595sceneObjects3.length = 0;
+gdjs.Percurso_32BicaCode.GDURLObjects1.length = 0;
+gdjs.Percurso_32BicaCode.GDURLObjects2.length = 0;
+gdjs.Percurso_32BicaCode.GDURLObjects3.length = 0;
+gdjs.Percurso_32BicaCode.GDfundopistagmObjects1.length = 0;
+gdjs.Percurso_32BicaCode.GDfundopistagmObjects2.length = 0;
+gdjs.Percurso_32BicaCode.GDfundopistagmObjects3.length = 0;
+gdjs.Percurso_32BicaCode.GDpistagmObjects1.length = 0;
+gdjs.Percurso_32BicaCode.GDpistagmObjects2.length = 0;
+gdjs.Percurso_32BicaCode.GDpistagmObjects3.length = 0;
 
 gdjs.Percurso_32BicaCode.eventsList6(runtimeScene);
 

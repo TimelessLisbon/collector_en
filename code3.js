@@ -1,19 +1,4 @@
 gdjs.RegistoCode = {};
-gdjs.RegistoCode.GDscoreObjects1= [];
-gdjs.RegistoCode.GDscoreObjects2= [];
-gdjs.RegistoCode.GDscoreObjects3= [];
-gdjs.RegistoCode.GDnext_95sceneObjects1= [];
-gdjs.RegistoCode.GDnext_95sceneObjects2= [];
-gdjs.RegistoCode.GDnext_95sceneObjects3= [];
-gdjs.RegistoCode.GDURLObjects1= [];
-gdjs.RegistoCode.GDURLObjects2= [];
-gdjs.RegistoCode.GDURLObjects3= [];
-gdjs.RegistoCode.GDfundopistagmObjects1= [];
-gdjs.RegistoCode.GDfundopistagmObjects2= [];
-gdjs.RegistoCode.GDfundopistagmObjects3= [];
-gdjs.RegistoCode.GDpistagmObjects1= [];
-gdjs.RegistoCode.GDpistagmObjects2= [];
-gdjs.RegistoCode.GDpistagmObjects3= [];
 gdjs.RegistoCode.GDanswerObjects1= [];
 gdjs.RegistoCode.GDanswerObjects2= [];
 gdjs.RegistoCode.GDanswerObjects3= [];
@@ -32,9 +17,24 @@ gdjs.RegistoCode.GDUIDObjects3= [];
 gdjs.RegistoCode.GDloadingObjects1= [];
 gdjs.RegistoCode.GDloadingObjects2= [];
 gdjs.RegistoCode.GDloadingObjects3= [];
-gdjs.RegistoCode.GDloading_95animationObjects1= [];
-gdjs.RegistoCode.GDloading_95animationObjects2= [];
-gdjs.RegistoCode.GDloading_95animationObjects3= [];
+gdjs.RegistoCode.GDloading_9595animationObjects1= [];
+gdjs.RegistoCode.GDloading_9595animationObjects2= [];
+gdjs.RegistoCode.GDloading_9595animationObjects3= [];
+gdjs.RegistoCode.GDscoreObjects1= [];
+gdjs.RegistoCode.GDscoreObjects2= [];
+gdjs.RegistoCode.GDscoreObjects3= [];
+gdjs.RegistoCode.GDnext_9595sceneObjects1= [];
+gdjs.RegistoCode.GDnext_9595sceneObjects2= [];
+gdjs.RegistoCode.GDnext_9595sceneObjects3= [];
+gdjs.RegistoCode.GDURLObjects1= [];
+gdjs.RegistoCode.GDURLObjects2= [];
+gdjs.RegistoCode.GDURLObjects3= [];
+gdjs.RegistoCode.GDfundopistagmObjects1= [];
+gdjs.RegistoCode.GDfundopistagmObjects2= [];
+gdjs.RegistoCode.GDfundopistagmObjects3= [];
+gdjs.RegistoCode.GDpistagmObjects1= [];
+gdjs.RegistoCode.GDpistagmObjects2= [];
+gdjs.RegistoCode.GDpistagmObjects3= [];
 
 
 gdjs.RegistoCode.eventsList0 = function(runtimeScene) {
@@ -84,7 +84,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13027244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10830948);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 0, 1);
@@ -109,7 +109,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13045300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10849140);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -136,7 +136,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13048196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10852036);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -152,7 +152,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13049332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10853172);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.writeField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Team", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), runtimeScene.getScene().getVariables().getFromIndex(0));
@@ -230,7 +230,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.RegistoCode.GDanswerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("invalid"), gdjs.RegistoCode.GDinvalidObjects1);
 gdjs.copyArray(runtimeScene.getObjects("loading"), gdjs.RegistoCode.GDloadingObjects1);
-gdjs.copyArray(runtimeScene.getObjects("loading_animation"), gdjs.RegistoCode.GDloading_95animationObjects1);
+gdjs.copyArray(runtimeScene.getObjects("loading_animation"), gdjs.RegistoCode.GDloading_9595animationObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.RegistoCode.GDokObjects1);
 {for(var i = 0, len = gdjs.RegistoCode.GDokObjects1.length ;i < len;++i) {
     gdjs.RegistoCode.GDokObjects1[i].setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.RegistoCode.GDokObjects1[i].getWidth())) / 2);
@@ -244,8 +244,8 @@ gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.RegistoCode.GDokObjects1);
 }{for(var i = 0, len = gdjs.RegistoCode.GDloadingObjects1.length ;i < len;++i) {
     gdjs.RegistoCode.GDloadingObjects1[i].hide();
 }
-}{for(var i = 0, len = gdjs.RegistoCode.GDloading_95animationObjects1.length ;i < len;++i) {
-    gdjs.RegistoCode.GDloading_95animationObjects1[i].hide();
+}{for(var i = 0, len = gdjs.RegistoCode.GDloading_9595animationObjects1.length ;i < len;++i) {
+    gdjs.RegistoCode.GDloading_9595animationObjects1[i].hide();
 }
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "invalid");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
@@ -367,7 +367,7 @@ gdjs.RegistoCode.GDokObjects1.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.RegistoCode.GDanswerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("loading"), gdjs.RegistoCode.GDloadingObjects1);
-gdjs.copyArray(runtimeScene.getObjects("loading_animation"), gdjs.RegistoCode.GDloading_95animationObjects1);
+gdjs.copyArray(runtimeScene.getObjects("loading_animation"), gdjs.RegistoCode.GDloading_9595animationObjects1);
 /* Reuse gdjs.RegistoCode.GDokObjects1 */
 {runtimeScene.getGame().getVariables().getFromIndex(0).setString((( gdjs.RegistoCode.GDanswerObjects1.length === 0 ) ? "" :gdjs.RegistoCode.GDanswerObjects1[0].getString()));
 }{for(var i = 0, len = gdjs.RegistoCode.GDanswerObjects1.length ;i < len;++i) {
@@ -379,8 +379,8 @@ gdjs.copyArray(runtimeScene.getObjects("loading_animation"), gdjs.RegistoCode.GD
 }{for(var i = 0, len = gdjs.RegistoCode.GDloadingObjects1.length ;i < len;++i) {
     gdjs.RegistoCode.GDloadingObjects1[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.RegistoCode.GDloading_95animationObjects1.length ;i < len;++i) {
-    gdjs.RegistoCode.GDloading_95animationObjects1[i].hide(false);
+}{for(var i = 0, len = gdjs.RegistoCode.GDloading_9595animationObjects1.length ;i < len;++i) {
+    gdjs.RegistoCode.GDloading_9595animationObjects1[i].hide(false);
 }
 }
 { //Subevents
@@ -487,21 +487,6 @@ if (isConditionTrue_0) {
 gdjs.RegistoCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.RegistoCode.GDscoreObjects1.length = 0;
-gdjs.RegistoCode.GDscoreObjects2.length = 0;
-gdjs.RegistoCode.GDscoreObjects3.length = 0;
-gdjs.RegistoCode.GDnext_95sceneObjects1.length = 0;
-gdjs.RegistoCode.GDnext_95sceneObjects2.length = 0;
-gdjs.RegistoCode.GDnext_95sceneObjects3.length = 0;
-gdjs.RegistoCode.GDURLObjects1.length = 0;
-gdjs.RegistoCode.GDURLObjects2.length = 0;
-gdjs.RegistoCode.GDURLObjects3.length = 0;
-gdjs.RegistoCode.GDfundopistagmObjects1.length = 0;
-gdjs.RegistoCode.GDfundopistagmObjects2.length = 0;
-gdjs.RegistoCode.GDfundopistagmObjects3.length = 0;
-gdjs.RegistoCode.GDpistagmObjects1.length = 0;
-gdjs.RegistoCode.GDpistagmObjects2.length = 0;
-gdjs.RegistoCode.GDpistagmObjects3.length = 0;
 gdjs.RegistoCode.GDanswerObjects1.length = 0;
 gdjs.RegistoCode.GDanswerObjects2.length = 0;
 gdjs.RegistoCode.GDanswerObjects3.length = 0;
@@ -520,9 +505,24 @@ gdjs.RegistoCode.GDUIDObjects3.length = 0;
 gdjs.RegistoCode.GDloadingObjects1.length = 0;
 gdjs.RegistoCode.GDloadingObjects2.length = 0;
 gdjs.RegistoCode.GDloadingObjects3.length = 0;
-gdjs.RegistoCode.GDloading_95animationObjects1.length = 0;
-gdjs.RegistoCode.GDloading_95animationObjects2.length = 0;
-gdjs.RegistoCode.GDloading_95animationObjects3.length = 0;
+gdjs.RegistoCode.GDloading_9595animationObjects1.length = 0;
+gdjs.RegistoCode.GDloading_9595animationObjects2.length = 0;
+gdjs.RegistoCode.GDloading_9595animationObjects3.length = 0;
+gdjs.RegistoCode.GDscoreObjects1.length = 0;
+gdjs.RegistoCode.GDscoreObjects2.length = 0;
+gdjs.RegistoCode.GDscoreObjects3.length = 0;
+gdjs.RegistoCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.RegistoCode.GDnext_9595sceneObjects2.length = 0;
+gdjs.RegistoCode.GDnext_9595sceneObjects3.length = 0;
+gdjs.RegistoCode.GDURLObjects1.length = 0;
+gdjs.RegistoCode.GDURLObjects2.length = 0;
+gdjs.RegistoCode.GDURLObjects3.length = 0;
+gdjs.RegistoCode.GDfundopistagmObjects1.length = 0;
+gdjs.RegistoCode.GDfundopistagmObjects2.length = 0;
+gdjs.RegistoCode.GDfundopistagmObjects3.length = 0;
+gdjs.RegistoCode.GDpistagmObjects1.length = 0;
+gdjs.RegistoCode.GDpistagmObjects2.length = 0;
+gdjs.RegistoCode.GDpistagmObjects3.length = 0;
 
 gdjs.RegistoCode.eventsList5(runtimeScene);
 

@@ -1,14 +1,4 @@
 gdjs.VideoCode = {};
-gdjs.VideoCode.GDscoreObjects1= [];
-gdjs.VideoCode.GDscoreObjects2= [];
-gdjs.VideoCode.GDnext_95sceneObjects1= [];
-gdjs.VideoCode.GDnext_95sceneObjects2= [];
-gdjs.VideoCode.GDURLObjects1= [];
-gdjs.VideoCode.GDURLObjects2= [];
-gdjs.VideoCode.GDfundopistagmObjects1= [];
-gdjs.VideoCode.GDfundopistagmObjects2= [];
-gdjs.VideoCode.GDpistagmObjects1= [];
-gdjs.VideoCode.GDpistagmObjects2= [];
 gdjs.VideoCode.GDvideoObjects1= [];
 gdjs.VideoCode.GDvideoObjects2= [];
 gdjs.VideoCode.GDplayObjects1= [];
@@ -21,6 +11,16 @@ gdjs.VideoCode.GDhighlightObjects1= [];
 gdjs.VideoCode.GDhighlightObjects2= [];
 gdjs.VideoCode.GDchromeObjects1= [];
 gdjs.VideoCode.GDchromeObjects2= [];
+gdjs.VideoCode.GDscoreObjects1= [];
+gdjs.VideoCode.GDscoreObjects2= [];
+gdjs.VideoCode.GDnext_9595sceneObjects1= [];
+gdjs.VideoCode.GDnext_9595sceneObjects2= [];
+gdjs.VideoCode.GDURLObjects1= [];
+gdjs.VideoCode.GDURLObjects2= [];
+gdjs.VideoCode.GDfundopistagmObjects1= [];
+gdjs.VideoCode.GDfundopistagmObjects2= [];
+gdjs.VideoCode.GDpistagmObjects1= [];
+gdjs.VideoCode.GDpistagmObjects2= [];
 
 
 gdjs.VideoCode.eventsList0 = function(runtimeScene) {
@@ -70,7 +70,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12939596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10795804);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -84,7 +84,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.VideoCode.mapOfGDgdjs_46VideoCode_46GDlinkObjects1Objects = Hashtable.newFrom({"link": gdjs.VideoCode.GDlinkObjects1});
+};gdjs.VideoCode.mapOfGDgdjs_9546VideoCode_9546GDlinkObjects1Objects = Hashtable.newFrom({"link": gdjs.VideoCode.GDlinkObjects1});
 gdjs.VideoCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -93,7 +93,7 @@ gdjs.VideoCode.eventsList2 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.VideoCode.mapOfGDgdjs_46VideoCode_46GDlinkObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.VideoCode.mapOfGDgdjs_9546VideoCode_9546GDlinkObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 {gdjs.evtTools.window.openURL("https://drive.google.com/file/d/1HKuKMqxR7ye-j8GG_UPTrhzdMd2TMGNU/view?usp=sharing", runtimeScene);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara", false);
@@ -389,16 +389,6 @@ gdjs.VideoCode.eventsList2(runtimeScene);} //End of subevents
 gdjs.VideoCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.VideoCode.GDscoreObjects1.length = 0;
-gdjs.VideoCode.GDscoreObjects2.length = 0;
-gdjs.VideoCode.GDnext_95sceneObjects1.length = 0;
-gdjs.VideoCode.GDnext_95sceneObjects2.length = 0;
-gdjs.VideoCode.GDURLObjects1.length = 0;
-gdjs.VideoCode.GDURLObjects2.length = 0;
-gdjs.VideoCode.GDfundopistagmObjects1.length = 0;
-gdjs.VideoCode.GDfundopistagmObjects2.length = 0;
-gdjs.VideoCode.GDpistagmObjects1.length = 0;
-gdjs.VideoCode.GDpistagmObjects2.length = 0;
 gdjs.VideoCode.GDvideoObjects1.length = 0;
 gdjs.VideoCode.GDvideoObjects2.length = 0;
 gdjs.VideoCode.GDplayObjects1.length = 0;
@@ -411,6 +401,16 @@ gdjs.VideoCode.GDhighlightObjects1.length = 0;
 gdjs.VideoCode.GDhighlightObjects2.length = 0;
 gdjs.VideoCode.GDchromeObjects1.length = 0;
 gdjs.VideoCode.GDchromeObjects2.length = 0;
+gdjs.VideoCode.GDscoreObjects1.length = 0;
+gdjs.VideoCode.GDscoreObjects2.length = 0;
+gdjs.VideoCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.VideoCode.GDnext_9595sceneObjects2.length = 0;
+gdjs.VideoCode.GDURLObjects1.length = 0;
+gdjs.VideoCode.GDURLObjects2.length = 0;
+gdjs.VideoCode.GDfundopistagmObjects1.length = 0;
+gdjs.VideoCode.GDfundopistagmObjects2.length = 0;
+gdjs.VideoCode.GDpistagmObjects1.length = 0;
+gdjs.VideoCode.GDpistagmObjects2.length = 0;
 
 gdjs.VideoCode.eventsList3(runtimeScene);
 

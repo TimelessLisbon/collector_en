@@ -1,10 +1,16 @@
 gdjs.StartCode = {};
+gdjs.StartCode.GDUIDObjects1= [];
+gdjs.StartCode.GDUIDObjects2= [];
+gdjs.StartCode.GDUIDObjects3= [];
+gdjs.StartCode.GDfundoObjects1= [];
+gdjs.StartCode.GDfundoObjects2= [];
+gdjs.StartCode.GDfundoObjects3= [];
 gdjs.StartCode.GDscoreObjects1= [];
 gdjs.StartCode.GDscoreObjects2= [];
 gdjs.StartCode.GDscoreObjects3= [];
-gdjs.StartCode.GDnext_95sceneObjects1= [];
-gdjs.StartCode.GDnext_95sceneObjects2= [];
-gdjs.StartCode.GDnext_95sceneObjects3= [];
+gdjs.StartCode.GDnext_9595sceneObjects1= [];
+gdjs.StartCode.GDnext_9595sceneObjects2= [];
+gdjs.StartCode.GDnext_9595sceneObjects3= [];
 gdjs.StartCode.GDURLObjects1= [];
 gdjs.StartCode.GDURLObjects2= [];
 gdjs.StartCode.GDURLObjects3= [];
@@ -14,12 +20,6 @@ gdjs.StartCode.GDfundopistagmObjects3= [];
 gdjs.StartCode.GDpistagmObjects1= [];
 gdjs.StartCode.GDpistagmObjects2= [];
 gdjs.StartCode.GDpistagmObjects3= [];
-gdjs.StartCode.GDUIDObjects1= [];
-gdjs.StartCode.GDUIDObjects2= [];
-gdjs.StartCode.GDUIDObjects3= [];
-gdjs.StartCode.GDfundoObjects1= [];
-gdjs.StartCode.GDfundoObjects2= [];
-gdjs.StartCode.GDfundoObjects3= [];
 
 
 gdjs.StartCode.eventsList0 = function(runtimeScene) {
@@ -587,12 +587,18 @@ let isConditionTrue_0 = false;
 gdjs.StartCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.StartCode.GDUIDObjects1.length = 0;
+gdjs.StartCode.GDUIDObjects2.length = 0;
+gdjs.StartCode.GDUIDObjects3.length = 0;
+gdjs.StartCode.GDfundoObjects1.length = 0;
+gdjs.StartCode.GDfundoObjects2.length = 0;
+gdjs.StartCode.GDfundoObjects3.length = 0;
 gdjs.StartCode.GDscoreObjects1.length = 0;
 gdjs.StartCode.GDscoreObjects2.length = 0;
 gdjs.StartCode.GDscoreObjects3.length = 0;
-gdjs.StartCode.GDnext_95sceneObjects1.length = 0;
-gdjs.StartCode.GDnext_95sceneObjects2.length = 0;
-gdjs.StartCode.GDnext_95sceneObjects3.length = 0;
+gdjs.StartCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.StartCode.GDnext_9595sceneObjects2.length = 0;
+gdjs.StartCode.GDnext_9595sceneObjects3.length = 0;
 gdjs.StartCode.GDURLObjects1.length = 0;
 gdjs.StartCode.GDURLObjects2.length = 0;
 gdjs.StartCode.GDURLObjects3.length = 0;
@@ -602,12 +608,6 @@ gdjs.StartCode.GDfundopistagmObjects3.length = 0;
 gdjs.StartCode.GDpistagmObjects1.length = 0;
 gdjs.StartCode.GDpistagmObjects2.length = 0;
 gdjs.StartCode.GDpistagmObjects3.length = 0;
-gdjs.StartCode.GDUIDObjects1.length = 0;
-gdjs.StartCode.GDUIDObjects2.length = 0;
-gdjs.StartCode.GDUIDObjects3.length = 0;
-gdjs.StartCode.GDfundoObjects1.length = 0;
-gdjs.StartCode.GDfundoObjects2.length = 0;
-gdjs.StartCode.GDfundoObjects3.length = 0;
 
 gdjs.StartCode.eventsList2(runtimeScene);
 

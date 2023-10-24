@@ -1,21 +1,21 @@
 gdjs.CoordenadasCode = {};
+gdjs.CoordenadasCode.GDlatitudeObjects1= [];
+gdjs.CoordenadasCode.GDlatitudeObjects2= [];
+gdjs.CoordenadasCode.GDlongitudeObjects1= [];
+gdjs.CoordenadasCode.GDlongitudeObjects2= [];
 gdjs.CoordenadasCode.GDscoreObjects1= [];
 gdjs.CoordenadasCode.GDscoreObjects2= [];
-gdjs.CoordenadasCode.GDnext_95sceneObjects1= [];
-gdjs.CoordenadasCode.GDnext_95sceneObjects2= [];
+gdjs.CoordenadasCode.GDnext_9595sceneObjects1= [];
+gdjs.CoordenadasCode.GDnext_9595sceneObjects2= [];
 gdjs.CoordenadasCode.GDURLObjects1= [];
 gdjs.CoordenadasCode.GDURLObjects2= [];
 gdjs.CoordenadasCode.GDfundopistagmObjects1= [];
 gdjs.CoordenadasCode.GDfundopistagmObjects2= [];
 gdjs.CoordenadasCode.GDpistagmObjects1= [];
 gdjs.CoordenadasCode.GDpistagmObjects2= [];
-gdjs.CoordenadasCode.GDlatitudeObjects1= [];
-gdjs.CoordenadasCode.GDlatitudeObjects2= [];
-gdjs.CoordenadasCode.GDlongitudeObjects1= [];
-gdjs.CoordenadasCode.GDlongitudeObjects2= [];
 
 
-gdjs.CoordenadasCode.userFunc0xe22150 = function(runtimeScene) {
+gdjs.CoordenadasCode.userFunc0x8b5990 = function(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -39,7 +39,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.CoordenadasCode.userFunc0xdb24c8 = function(runtimeScene) {
+gdjs.CoordenadasCode.userFunc0x815c70 = function(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -93,7 +93,7 @@ gdjs.copyArray(runtimeScene.getObjects("longitude"), gdjs.CoordenadasCode.GDlong
 {
 
 
-gdjs.CoordenadasCode.userFunc0xe22150(runtimeScene);
+gdjs.CoordenadasCode.userFunc0x8b5990(runtimeScene);
 
 }
 
@@ -101,7 +101,7 @@ gdjs.CoordenadasCode.userFunc0xe22150(runtimeScene);
 {
 
 
-gdjs.CoordenadasCode.userFunc0xdb24c8(runtimeScene);
+gdjs.CoordenadasCode.userFunc0x815c70(runtimeScene);
 
 }
 
@@ -129,20 +129,20 @@ gdjs.copyArray(runtimeScene.getObjects("longitude"), gdjs.CoordenadasCode.GDlong
 gdjs.CoordenadasCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.CoordenadasCode.GDlatitudeObjects1.length = 0;
+gdjs.CoordenadasCode.GDlatitudeObjects2.length = 0;
+gdjs.CoordenadasCode.GDlongitudeObjects1.length = 0;
+gdjs.CoordenadasCode.GDlongitudeObjects2.length = 0;
 gdjs.CoordenadasCode.GDscoreObjects1.length = 0;
 gdjs.CoordenadasCode.GDscoreObjects2.length = 0;
-gdjs.CoordenadasCode.GDnext_95sceneObjects1.length = 0;
-gdjs.CoordenadasCode.GDnext_95sceneObjects2.length = 0;
+gdjs.CoordenadasCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.CoordenadasCode.GDnext_9595sceneObjects2.length = 0;
 gdjs.CoordenadasCode.GDURLObjects1.length = 0;
 gdjs.CoordenadasCode.GDURLObjects2.length = 0;
 gdjs.CoordenadasCode.GDfundopistagmObjects1.length = 0;
 gdjs.CoordenadasCode.GDfundopistagmObjects2.length = 0;
 gdjs.CoordenadasCode.GDpistagmObjects1.length = 0;
 gdjs.CoordenadasCode.GDpistagmObjects2.length = 0;
-gdjs.CoordenadasCode.GDlatitudeObjects1.length = 0;
-gdjs.CoordenadasCode.GDlatitudeObjects2.length = 0;
-gdjs.CoordenadasCode.GDlongitudeObjects1.length = 0;
-gdjs.CoordenadasCode.GDlongitudeObjects2.length = 0;
 
 gdjs.CoordenadasCode.eventsList0(runtimeScene);
 
