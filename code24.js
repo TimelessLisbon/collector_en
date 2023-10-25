@@ -494,11 +494,11 @@ gdjs.Bica_32EnigmaCode.eventsList17(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9615420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9570740);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "LIDA", runtimeScene.getScene().getVariables().get("error"));
+{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
 }}
 
 }
@@ -527,12 +527,11 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9570740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9615420);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{runtimeScene.getScene().getVariables().get("clueGM").setString("");
+{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "LIDA", runtimeScene.getScene().getVariables().get("error"));
 }}
 
 }
@@ -1595,33 +1594,12 @@ gdjs.Bica_32EnigmaCode.eventsList18(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("fundopistagm"), gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1);
-gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.Bica_32EnigmaCode.GDokObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1.length;i<l;++i) {
-    if ( gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1[i].isVisible() ) {
-        isConditionTrue_0 = true;
-        gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1[k] = gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1[i];
-        ++k;
-    }
-}
-gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1.length = k;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Bica_32EnigmaCode.GDokObjects1.length;i<l;++i) {
-    if ( gdjs.Bica_32EnigmaCode.GDokObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.Bica_32EnigmaCode.GDokObjects1[k] = gdjs.Bica_32EnigmaCode.GDokObjects1[i];
-        ++k;
-    }
-}
-gdjs.Bica_32EnigmaCode.GDokObjects1.length = k;
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.Bica_32EnigmaCode.GDanswerObjects1);
-/* Reuse gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1 */
+gdjs.copyArray(runtimeScene.getObjects("fundopistagm"), gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1);
 gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Bica_32EnigmaCode.GDpistagmObjects1);
 {for(var i = 0, len = gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1.length ;i < len;++i) {
     gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1[i].hide();
@@ -1629,15 +1607,37 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Bica_32EnigmaCode.GDpist
 }{for(var i = 0, len = gdjs.Bica_32EnigmaCode.GDpistagmObjects1.length ;i < len;++i) {
     gdjs.Bica_32EnigmaCode.GDpistagmObjects1[i].hide();
 }
-}{for(var i = 0, len = gdjs.Bica_32EnigmaCode.GDanswerObjects1.length ;i < len;++i) {
-    gdjs.Bica_32EnigmaCode.GDanswerObjects1[i].hide(false);
-}
-}{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }
 { //Subevents
 gdjs.Bica_32EnigmaCode.eventsList19(runtimeScene);} //End of subevents
 }
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", runtimeScene.getScene().getVariables().get("clueGM"), runtimeScene.getScene().getVariables().get("error"));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("clueGM")) != "";
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(1);
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "RECEBIDA", runtimeScene.getScene().getVariables().get("error"));
+}}
 
 }
 
@@ -1686,37 +1686,33 @@ gdjs.Bica_32EnigmaCode.eventsList20(runtimeScene);} //End of subevents
 
 {
 
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("clueGM")) != "";
-if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(1);
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "RECEBIDA", runtimeScene.getScene().getVariables().get("error"));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", runtimeScene.getScene().getVariables().get("clueGM"), runtimeScene.getScene().getVariables().get("error"));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("fundopistagm"), gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.Bica_32EnigmaCode.GDokObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1.length;i<l;++i) {
+    if ( gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1[i].isVisible() ) {
+        isConditionTrue_0 = true;
+        gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1[k] = gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1[i];
+        ++k;
+    }
+}
+gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Bica_32EnigmaCode.GDokObjects1.length;i<l;++i) {
+    if ( gdjs.Bica_32EnigmaCode.GDokObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Bica_32EnigmaCode.GDokObjects1[k] = gdjs.Bica_32EnigmaCode.GDokObjects1[i];
+        ++k;
+    }
+}
+gdjs.Bica_32EnigmaCode.GDokObjects1.length = k;
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.Bica_32EnigmaCode.GDanswerObjects1);
+/* Reuse gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1 */
 gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Bica_32EnigmaCode.GDpistagmObjects1);
 {for(var i = 0, len = gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1.length ;i < len;++i) {
     gdjs.Bica_32EnigmaCode.GDfundopistagmObjects1[i].hide();
@@ -1724,6 +1720,10 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Bica_32EnigmaCode.GDpist
 }{for(var i = 0, len = gdjs.Bica_32EnigmaCode.GDpistagmObjects1.length ;i < len;++i) {
     gdjs.Bica_32EnigmaCode.GDpistagmObjects1[i].hide();
 }
+}{for(var i = 0, len = gdjs.Bica_32EnigmaCode.GDanswerObjects1.length ;i < len;++i) {
+    gdjs.Bica_32EnigmaCode.GDanswerObjects1[i].hide(false);
+}
+}{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(0);
 }
 { //Subevents

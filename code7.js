@@ -517,11 +517,11 @@ gdjs.S_46_32Roque_32Cruzadas_321Code.eventsList18(runtimeScene);} //End of subev
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9615420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9570740);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "LIDA", runtimeScene.getScene().getVariables().get("error"));
+{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
 }}
 
 }
@@ -550,12 +550,11 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9570740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9615420);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{runtimeScene.getScene().getVariables().get("clueGM").setString("");
+{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "LIDA", runtimeScene.getScene().getVariables().get("error"));
 }}
 
 }
@@ -1645,33 +1644,12 @@ gdjs.S_46_32Roque_32Cruzadas_321Code.eventsList19(runtimeScene);} //End of subev
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("fundopistagm"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1);
-gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1.length;i<l;++i) {
-    if ( gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1[i].isVisible() ) {
-        isConditionTrue_0 = true;
-        gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1[k] = gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1[i];
-        ++k;
-    }
-}
-gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1.length = k;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1.length;i<l;++i) {
-    if ( gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1[k] = gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1[i];
-        ++k;
-    }
-}
-gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1.length = k;
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDanswerObjects1);
-/* Reuse gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1 */
+gdjs.copyArray(runtimeScene.getObjects("fundopistagm"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1);
 gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDpistagmObjects1);
 {for(var i = 0, len = gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1.length ;i < len;++i) {
     gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1[i].hide();
@@ -1679,15 +1657,37 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.S_46_32Roque_32Cruzadas_
 }{for(var i = 0, len = gdjs.S_46_32Roque_32Cruzadas_321Code.GDpistagmObjects1.length ;i < len;++i) {
     gdjs.S_46_32Roque_32Cruzadas_321Code.GDpistagmObjects1[i].hide();
 }
-}{for(var i = 0, len = gdjs.S_46_32Roque_32Cruzadas_321Code.GDanswerObjects1.length ;i < len;++i) {
-    gdjs.S_46_32Roque_32Cruzadas_321Code.GDanswerObjects1[i].hide(false);
-}
-}{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(0);
+}{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }
 { //Subevents
 gdjs.S_46_32Roque_32Cruzadas_321Code.eventsList20(runtimeScene);} //End of subevents
 }
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", runtimeScene.getScene().getVariables().get("clueGM"), runtimeScene.getScene().getVariables().get("error"));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("clueGM")) != "";
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(1);
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "RECEBIDA", runtimeScene.getScene().getVariables().get("error"));
+}}
 
 }
 
@@ -1736,37 +1736,33 @@ gdjs.S_46_32Roque_32Cruzadas_321Code.eventsList21(runtimeScene);} //End of subev
 
 {
 
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("clueGM")) != "";
-if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(1);
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "RECEBIDA", runtimeScene.getScene().getVariables().get("error"));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", runtimeScene.getScene().getVariables().get("clueGM"), runtimeScene.getScene().getVariables().get("error"));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("fundopistagm"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1.length;i<l;++i) {
+    if ( gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1[i].isVisible() ) {
+        isConditionTrue_0 = true;
+        gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1[k] = gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1[i];
+        ++k;
+    }
+}
+gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1.length;i<l;++i) {
+    if ( gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1[k] = gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1[i];
+        ++k;
+    }
+}
+gdjs.S_46_32Roque_32Cruzadas_321Code.GDokObjects1.length = k;
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDanswerObjects1);
+/* Reuse gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1 */
 gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.S_46_32Roque_32Cruzadas_321Code.GDpistagmObjects1);
 {for(var i = 0, len = gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1.length ;i < len;++i) {
     gdjs.S_46_32Roque_32Cruzadas_321Code.GDfundopistagmObjects1[i].hide();
@@ -1774,6 +1770,10 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.S_46_32Roque_32Cruzadas_
 }{for(var i = 0, len = gdjs.S_46_32Roque_32Cruzadas_321Code.GDpistagmObjects1.length ;i < len;++i) {
     gdjs.S_46_32Roque_32Cruzadas_321Code.GDpistagmObjects1[i].hide();
 }
+}{for(var i = 0, len = gdjs.S_46_32Roque_32Cruzadas_321Code.GDanswerObjects1.length ;i < len;++i) {
+    gdjs.S_46_32Roque_32Cruzadas_321Code.GDanswerObjects1[i].hide(false);
+}
+}{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(0);
 }
 { //Subevents
